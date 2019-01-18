@@ -165,12 +165,16 @@ img{
  
     margin-left: 0%
 }
-.wh_indicator{
-    display: none;
+.index_list_blean{
+    height: 2.5rem;
+    
+}
+.index_list_blean>.wh_indicator{
+    bottom: 0;
 }
 .index_list_fl{
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: auto;
     height: 2rem;
     display: inline-block;
@@ -204,4 +208,69 @@ font-size: 0.22rem;
     width: 100%;
     height: 0.5rem;
     line-height: 0.5rem;
+}
+.index_list_bg{
+    background: url(../imgs/blean_bg.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.index_list_bg>p{
+    font-size: 0.4rem;
+    text-align: center;
+    color: white;
+    margin-top: 0.7rem
+}
+.index_list_bg>div{
+    width: 100%;
+    text-align: center;
+}
+.index_list_btnl{
+    display: inline-block;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    border-radius: 0.1rem;
+    font-size: 0.4rem;
+    padding: 0 0.1rem;
+    height: 0.6rem;
+    line-height: 0.55rem;
+    vertical-align: middle; 
+}
+.index_list_btnr{
+    display: inline-block;
+    background: white;
+    color: #ff6900;
+    text-align: center;
+    border-radius: 0.1rem;
+    font-size: 0.4rem;
+    padding: 0 0.1rem;
+    height: 0.6rem;
+    line-height: 0.55rem;
+    vertical-align: middle;
+}
+/*轮播图*/
+.index_blean_imgs{
+    margin-top: 0.2rem;
+    border: 1px solid red;
+}
+.index_blean_imgss>.wh_indicator{
+    bottom: 0;
+}
+.index_blean_img{
+    width: 100%;
+    height: 2rem;
+}
+/*首页公告轮播*/
+.index_gonggao{
+    transform: rotate(90deg);
+    margin-top: 35%;    
+    border: 1px solid red;
+}
+.index_gonggao>div>.wh_slide{
+    transform: rotate(-90deg)
+}
+.index_gonggao_kuang{
+    border: 1px solid blue;
+    margin-top:0.2rem ;
+    height: 2rem;
+    overflow: hidden
 }

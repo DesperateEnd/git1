@@ -11,7 +11,7 @@
               <div><i class="iconfont icon-roundaddfill index_headfb"></i>发布需求</div>
             </div>
             <div class="index_search"><i class="iconfont icon-search index_search"></i> <input type="text" name="" id="" placeholder="搜索专业人才为你服务" class="index_search_input"> <i>i</i> </div>
-             <Swiper>
+             <Swiper class="index_list_blean" autoPlay="false" interval="5000">
                 <Slide>
                        <ul class="index_list_fl">
                         <li v-for="(list1,i) in list1" :key="i">
@@ -33,25 +33,15 @@
                     </ul>
                 </Slide>
                 <Slide>
-                     <ul class="index_list_fl">
-                      <li v-for="(list1,i) in list2" :key="i">
-                          <div>
-                              <div> <i class="iconfont icon-roundaddfill index_list_icon"></i></div>
-                              <div>{{list1.name}}</div>
-                          </div>
-                      </li>
+                     <ul class="index_list_fl index_list_bg" >
+                       <p>还没找到您想要的服务？您可以：</p>
+                         <div>
+                           <span class="index_list_btnl">免费咨询</span>
+                           <span class="index_list_btnr">发布需求</span>
+                         </div>
                      </ul>
                 </Slide>
-                <Slide>
-                  <ul class="index_list_fl">
-                <li v-for="(list1,i) in list3" :key="i">
-                    <div>
-                        <div> <i class="iconfont icon-roundaddfill index_list_icon"></i></div>
-                        <div>{{list1.name}}</div>
-                    </div>
-                </li>
-              </ul>
-                </Slide>
+               
             </Swiper>
             <!-- <div class="index_list_all">
               <div>
@@ -61,8 +51,35 @@
               </div>
             </div>
             <div class="index_list_btn"><button>按钮1</button><button>按钮2</button><button>按钮3</button> </div> -->
-            <div>轮播图</div>
-            <div>公告</div>
+            <div class="index_blean_imgs">
+                <Swiper class="index_blean_imgss">
+                  <Slide>
+                    <img class="index_blean_img" src="../assets/imgs/blean1.png" alt="">
+                  </Slide>
+                  <Slide>
+                    <img class="index_blean_img" src="../assets/imgs/blean2.png" alt="">
+                  </Slide>
+                  <Slide>
+                    <img class="index_blean_img" src="../assets/imgs/blean3.png" alt="">
+                  </Slide>
+                  <Slide>
+                    <img class="index_blean_img" src="../assets/imgs/blean4.png" alt="">
+                  </Slide>
+                </Swiper>
+            </div>
+            <div class="index_gonggao_kuang">
+               <Swiper class="index_gonggao">
+                   <Slide>
+                     1
+                   </Slide>
+                   <Slide>
+                     2
+                   </Slide>
+                   <Slide>
+                     3
+                   </Slide>
+               </Swiper>
+            </div>
             <div>经典案例列表</div>
         </div>
     <my-foot></my-foot>
