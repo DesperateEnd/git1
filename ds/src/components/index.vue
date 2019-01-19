@@ -80,57 +80,67 @@
               <div class="index_xzfw_list1">
                      <ul>
                       <li>
-                          <div class="index_xzfw_active">
-                            <div></div>
-                          </div>
                           <div>
-                              <img src="" alt="">
-                              <p>品牌设计</p>
+                              <img class="index_ppsj" src="../assets/imgs/index_ppsj_act.png" alt="">
                           </div>
                       </li>
                       <li>
-                          <div class="index_xzfw_active">
-                            <div></div>
-                          </div>
                           <div>
-                              <img src="" alt="">
-                              <p>营销直销</p>
+                              <img class="index_wlzx" src="../assets/imgs/index_wlzx.png" alt="">
                           </div>
                       </li>
                       <li>
-                          <div class="index_xzfw_active">
-                            <div></div>
-                          </div>
                           <div>
-                              <img src="" alt="">
-                              <p>IT软件</p>
+                              <img class="index_itrj" src="../assets/imgs/index_itrj.png" alt="">
                           </div>
                       </li>
                       <li>
-                          <div class="index_xzfw_active">
-                            <div></div>
-                          </div>
                           <div>
-                              <img src="" alt="">
-                              <p>其他服务</p>
+                              <img class="index_qtfw" src="../assets/imgs/index_qtfw.png" alt="">
                           </div>
                       </li>
                       
                 </ul>
-                <div>
+                <div class="index_phone">
                         <span>手机号</span>
                         <input type="text" placeholder="请输入你的手机号">
                 </div>
-                <div>
+                <div class="index_yzm">
                         <span>验证码</span>
                         <input type="text" placeholder="请输入验证码">
                         <span>获取验证码</span>
                       </div>
               </div>
-              <button>我要发需求</button>
-              <p>轻松发布需求&nbsp;急速匹配人才&nbsp;顾问免费跟进</p>
+              <button class="index_wyfxq">我要发需求</button>
+              <p class="index_xzfw_foot">轻松发布需求&nbsp;急速匹配人才&nbsp;顾问免费跟进</p>
             </div>
-            <div>经典案例列表</div>
+            <div class="index_jdal">
+                <div class="index_jdal_head">经典案例 <i class="icon iconfont icon-right"></i></div>
+                <div class="index_jdal_list">
+                  <ul>
+                    <li>
+                      <div><img src="../assets/imgs/jdal1.png" alt=""></div>
+                      <div class="index_jdal_title"><span class="index_jdal_title_head">【品牌设计】</span>商业计划/品牌全案策划/产品、新媒体文案等服务供您选择！</div>
+                      <p >￥100.00起</p>
+                    </li>
+                    <li>
+                      <div><img src="../assets/imgs/jdal2.png" alt=""></div>
+                      <div class="index_jdal_title"><span class="index_jdal_title_head">【营销传播】</span>商业计划/品牌全案策划/产品、新媒体文案等服务供您选择！</div>
+                      <p>￥100.00起</p>
+                    </li>
+                    <li>
+                      <div><img src="../assets/imgs/jdal3.png" alt=""></div>
+                      <div class="index_jdal_title"><span class="index_jdal_title_head">【IT软件】</span>商业计划/品牌全案策划/产品、新媒体文案等服务供您选择！</div>
+                      <p>￥100.00起</p>
+                    </li>
+                    <li>
+                      <div><img src="../assets/imgs/jdal4.png" alt=""></div>
+                      <div class="index_jdal_title"><span class="index_jdal_title_head">【IT软件】</span>商业计划/品牌全案策划/产品、新媒体文案等服务供您选择！</div>
+                      <p>￥100.00起</p>
+                    </li>
+                  </ul>
+                </div>
+            </div>
         </div>
     <my-foot></my-foot>
   </div>
