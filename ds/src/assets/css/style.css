@@ -260,17 +260,101 @@ font-size: 0.22rem;
     height: 2rem;
 }
 /*首页公告轮播*/
-.index_gonggao{
-    transform: rotate(90deg);
-    margin-top: 35%;    
-    border: 1px solid red;
-}
-.index_gonggao>div>.wh_slide{
-    transform: rotate(-90deg)
+li{
+    list-style: none;
 }
 .index_gonggao_kuang{
-    border: 1px solid blue;
-    margin-top:0.2rem ;
-    height: 2rem;
-    overflow: hidden
+    border: 1px solid #ddd;
+    border-radius: 0.1rem;
+    width: 95%;
+    margin: auto;
+    margin-top: 0.2rem;
+    height: 1.2rem;
+    overflow: hidden;
+    box-shadow: 0 1px 1px 1px rgba(10,10,10,0.1);
+}
+.index_gonggao_kuang>ul{
+    display: inline-block;
+    font-size: 0.25rem;
+    width: 75%;
+    height: 100%;
+}
+@keyframes gonggao1
+{
+from {height:0;}
+to {height:1.2rem;}
+}
+
+.index_gonggao_kuang>ul>li{
+    width: 100%;
+    overflow: hidden;
+    line-height: 0.56rem;
+    color: #999;
+    animation: gonggao1 1s;
+}
+.index_gonggao_head{
+    display: inline-block;
+   
+    vertical-align: top;
+    height: 1.2rem;
+    width: 1.2rem;
+    line-height: 1.1rem;
+    padding-top: 0.18rem;
+}
+.index_gonggao_head>img{
+    width: 70%;
+    display: block;
+    margin:auto;
+}
+.index_gonggao_li{
+   
+    height: 1.2rem;
+    line-height: 1.2rem;
+}
+/*选择你需要分服务类型*/
+.index_xzfw{
+    border: 1px solid #ddd;
+    width: 95%;
+    margin: auto;
+    margin-top: 0.2rem;
+    border-radius: 0.1rem;
+    box-shadow: 0 1px 1px 1px rgba(10,10,10,0.1) 
+}
+.index_xzfw_head{
+    font-size: 0.4rem;
+    font-weight: bold;
+}
+.index_xzfw_list1{
+    width: 95%;
+    margin: auto;
+    border: 1px solid red;
+    font-size: 0.2rem
+}
+.index_xzfw_list1>ul{
+    width: 100%;
+    display: block;
+}
+.index_xzfw_list1>ul>li{
+    float: left;
+    width: 24%;
+    border: 1px solid #999;
+    margin-left: 0.05rem;
+    overflow: hidden;
+}
+.index_xzfw_active{
+    background: #d3d1d1;
+    width: 0.7rem;
+    height: 0.7rem;
+    transform: rotate(45deg);
+    margin-top: -0.35rem;
+    margin-left: -0.35rem;
+}
+.index_xzfw_active>div{
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    right: 0.1rem;
+    width: 0.2rem;
+    height: 0.3rem;
+    position: absolute;
+    bottom: 0.2rem;
 }

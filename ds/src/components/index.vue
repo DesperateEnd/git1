@@ -68,17 +68,67 @@
                 </Swiper>
             </div>
             <div class="index_gonggao_kuang">
-               <Swiper class="index_gonggao">
-                   <Slide>
-                     1
-                   </Slide>
-                   <Slide>
-                     2
-                   </Slide>
-                   <Slide>
-                     3
-                   </Slide>
-               </Swiper>
+              <div class="index_gonggao_head">
+               <img src="../assets/imgs/gonggao_head.png" alt="">
+              </div>
+              <ul>
+                <li class="index_gonggao_li" v-for="(gg,i) in items" :key=i>{{gg}}</li>
+              </ul>  
+            </div>
+            <div class="index_xzfw">
+              <p class="index_xzfw_head">选择你需要的服务类型</p>
+              <div class="index_xzfw_list1">
+                     <ul>
+                      <li>
+                          <div class="index_xzfw_active">
+                            <div></div>
+                          </div>
+                          <div>
+                              <img src="" alt="">
+                              <p>品牌设计</p>
+                          </div>
+                      </li>
+                      <li>
+                          <div class="index_xzfw_active">
+                            <div></div>
+                          </div>
+                          <div>
+                              <img src="" alt="">
+                              <p>营销直销</p>
+                          </div>
+                      </li>
+                      <li>
+                          <div class="index_xzfw_active">
+                            <div></div>
+                          </div>
+                          <div>
+                              <img src="" alt="">
+                              <p>IT软件</p>
+                          </div>
+                      </li>
+                      <li>
+                          <div class="index_xzfw_active">
+                            <div></div>
+                          </div>
+                          <div>
+                              <img src="" alt="">
+                              <p>其他服务</p>
+                          </div>
+                      </li>
+                      
+                </ul>
+                <div>
+                        <span>手机号</span>
+                        <input type="text" placeholder="请输入你的手机号">
+                </div>
+                <div>
+                        <span>验证码</span>
+                        <input type="text" placeholder="请输入验证码">
+                        <span>获取验证码</span>
+                      </div>
+              </div>
+              <button>我要发需求</button>
+              <p>轻松发布需求&nbsp;急速匹配人才&nbsp;顾问免费跟进</p>
             </div>
             <div>经典案例列表</div>
         </div>
@@ -116,9 +166,23 @@ export default {
         {img:'',name:'工商财税'},{img:'',name:'科技服务'},
         {img:'',name:'影视动漫'},{img:'',name:'电商服务'},
         {img:'',name:'装修服务'},{img:'',name:'全部分类'},
-      ]
+      ],
+      items:["  恭喜xxxxxxx签订外包场地的订单，获得xxxxx积分"," 恭喜xxxxxxx签订外包场地的订单，获得xxxxx积分2"," 恭喜xxxxxxx签订外包场地的订单，获得xxxxx积分3"]
     }
-  }
+  },
+  created(){
+    setInterval(this.scroll,2000)//定时器执行滚动
+},
+methods: {
+    scroll(){//公告滚动的方法
+       this.animate=true;    // 因为在消息向上滚动的时候需要添加css3过渡动画，所以这里需要设置true
+       setTimeout(()=>{      //  这里直接使用了es6的箭头函数，省去了处理this指向偏移问题，代码也比之前简化了很多
+               this.items.push(this.items[0]);  // 将数组的第一个元素添加到数组的
+               this.items.shift();               //删除数组的第一个元素
+               this.animate=false;  // margin-top 为0 的时候取消过渡动画，实现无缝滚动
+       },500)
+    }
+}
 }
 </script>
 
