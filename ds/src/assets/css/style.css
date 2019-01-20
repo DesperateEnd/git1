@@ -52,6 +52,7 @@ img{
     background:rgb(236, 235, 235);
     height: 1rem;
     color: #8c8c8c;
+    z-index: 100;
 }
 .myfoot>div{
     float: left;
@@ -251,8 +252,10 @@ font-size: 0.22rem;
 }
 /*轮播图*/
 .index_blean_imgs{
+    
+    width: 95%;
+    margin: auto;
     margin-top: 0.2rem;
-    border: 1px solid red;
 }
 .index_blean_imgss>.wh_indicator{
     bottom: 0;
@@ -469,6 +472,9 @@ to {height:1.2rem;}
     overflow: hidden;
     margin: 0.1rem;
 }
+.index_jdal_list>ul>li:first-child{
+    margin-left: 0;
+}
 .index_jdal_list>ul>li>div>img{
     width: 100%;
 }
@@ -487,4 +493,192 @@ overflow: hidden;
 }
 .index_jdal_title_head{
     color: #ff6900;
+}
+.index_fwxz_li{
+    font-size: 0.3rem;
+    width: 95%;
+    margin: auto;
+    margin-top: 0.5rem;
+    margin-bottom:0.2rem; 
+    height: 2.5rem;
+}
+.index_fwxz_li>ul>li{
+    display: inline-block;
+    float: left;
+    width: 24%;
+    border: 1px solid #ddd;
+    margin: 0.03rem;
+    padding: 0.1rem;
+    text-align: center;
+    border-radius: 0.1rem;
+}
+.index_fwxz_li_head{
+    font-size: 0.35rem;
+    font-weight: bold;
+}
+.index_fwxz_li_more>i{
+    font-size: 0.1rem;
+}
+.index_fwxz_li_more{
+    font-size: 0.2rem;
+    color: #999;
+    float: right;
+    margin-top: 0.05rem
+}
+.index_qtfw{
+  
+    width: 95%;
+    margin: auto;
+    margin-top: 0.5rem;
+}
+.index_qtfw_list{
+    height: 3.5rem;
+  
+}
+.index_qtfw_list>.wh_indicator{
+    bottom:0rem; 
+}
+.index_qtfw_li{
+    width: 100%;
+}
+.index_qtfw_li>li{
+    display: inline-block;
+    float: left;
+    width: 20%;
+    font-size: 0.2rem;
+    text-align: center;
+}
+.index_qtfw_img{
+    width: 100%;
+}
+.index_qtfw_head{
+    font-size: 0.35rem;
+    font-weight: bold;
+}
+.index_flzx{
+    width: 95%;
+    margin: auto;
+    margin-top: 0.5rem;
+    height: 3.5rem;
+}
+.index_flzx_head{
+    font-size: 0.35rem;
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+}
+.index_flzx_list{
+    width: 100%;
+}
+.index_flzx_list>ul{
+    width: 100%;
+}
+.index_flzx_list>ul>li{
+    display: inline-block;
+    float: left;
+    width: 48%;
+    margin: 0.06rem;
+    box-shadow: 1px 0 1px 1px rgba(10,10,10,0.1)
+}
+.index_flzx_list>ul>li>img{
+    width: 100%;    
+}
+.index_fblean{
+    margin: auto;
+    border-radius: 0.1rem;
+    overflow: hidden;
+    margin-top: 0.2rem;
+    width: 95%;
+    height: 1.5rem;
+}
+.index_fblean_li{
+    width: 100%;
+    height: 1.5rem;
+}
+.index_last{
+    width: 95%;
+    margin: auto;
+    margin-top: 0.2rem;
+}
+.index_last_head{
+    width: 100%;
+    overflow: auto;
+}
+.index_last_head>ul{
+    width: max-content;
+}
+.index_last_head>ul>li{
+    display: inline-block;
+    float: left;
+    font-size: 0.3rem;
+    padding: 0.1rem 0.2rem;
+}
+.index_last_head_active{
+    color: #ed672c;
+    border-bottom: 2px solid #ed672c; 
+}
+.index_last_list>ul{
+    width: 100%;
+}
+.index_last_list>ul>li{
+    width: 100%;
+    padding: 0.2rem;
+    box-shadow: 1px 0 1px 1px rgba(10,10,10,0.1);
+    clear: both;
+    height: 3.5rem;
+    margin-top: 0.2rem;
+}
+.index_last_list>ul>li>div:first-child{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.2rem;
+    margin-bottom: 0.2rem;
+    
+}
+.index_last_headimg{
+    font-size: 0.25rem;
+    font-weight: 550;
+    height: 0.7rem;
+    line-height: 0.7rem;
+}
+.index_last_headimg>span:last-child{
+    color: #8c8c8c;
+    font-weight: 100;
+    float: right;
+}
+.index_last_headimg>img{
+    width: 0.5rem;
+    border-radius: 50%;
+   
+}
+.index_last_title{
+    color: #8c8c8c;
+    font-size: 0.25rem;
+    width: 90%;
+    margin-left: 10%
+}
+.index_last_spimg{
+    width: 18%;
+    display: inline-block;
+    float: left;
+    margin-right: 0.1rem;
+}   
+.index_last_spimg>img{
+    width: 100%;
+    border-radius: 0.1rem;
+}
+.index_last_spxx{
+    display: inline-block;
+    width: 80%;
+    float: left;
+    font-size: 0.3rem;
+}
+.index_last_spxx>div:first-child{
+    font-weight: 550
+}
+.index_last_spxx>div:nth-child(2){
+    color: #8c8c8c;
+}
+.index_last_spxx>div:last-child{
+    color: #ed672c;
+    font-weight: 550;
+    margin-top: 0.1rem;
 }

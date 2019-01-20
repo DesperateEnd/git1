@@ -141,6 +141,111 @@
                   </ul>
                 </div>
             </div>
+            <div class="index_fwxz">
+                  <div class="index_fwxz_li" v-for="(li,i) in xzfwlist" :key="i">
+                      <div class="index_fwxz_li_head">设计服务   <span class="index_fwxz_li_more">更多 <i class="icon iconfont icon-right"></i><i class="icon iconfont icon-right"></i></span></div>
+                      <ul>
+                        <li>LOGO</li>
+                        <li>包装设计</li>
+                        <li>宣传手册</li>
+                        <li>VI设计</li>
+                        <li>海报设计</li>
+                        <li>PPT设计</li>
+                        <li>名片设计</li>
+                        <li>电商设计</li>
+                        <li>卡通形象</li>
+                        <li>餐饮空间</li>
+                        <li>购物空间</li>
+                        <li>家装设计</li>
+                      </ul>
+                  </div>
+                   
+            </div>
+            <div class="index_qtfw">
+                <div class="index_qtfw_head">快捷工具</div>
+                <Swiper class="index_qtfw_list">
+                  <Slide >
+                      <ul class="index_qtfw_li">
+                          <li v-for="(li,i) in list4" :key="i">
+                              <div><img class="index_qtfw_img" :src="li.img" alt=""></div>
+                              {{li.name}}
+                            </li>
+                      </ul>
+                  </Slide>
+                 <Slide>
+                      <ul class="index_qtfw_li">
+                          <li v-for="(li,i) in list4" :key="i">
+                              <div><img class="index_qtfw_img" :src="li.img" alt=""></div>
+                              {{li.name}}
+                            </li>
+                      </ul>
+                  </Slide>
+                  <Slide>
+                      <ul class="index_qtfw_li">
+                          <li v-for="(li,i) in list4" :key="i">
+                              <div><img class="index_qtfw_img" :src="li.img" alt=""></div>
+                              {{li.name}}
+                            </li>
+                      </ul>
+                  </Slide> 
+                </Swiper>
+            </div>
+            <div class="index_flzx">
+              <div class="index_flzx_head">福利中心</div>
+              <div class="index_flzx_list">
+                  <ul>
+                      <li><img src="../assets/imgs/zcflb.png" alt=""></li>
+                      <li><img src="../assets/imgs/mflgj.png" alt=""></li>
+                      <li><img src="../assets/imgs/mfzx.png" alt=""></li>
+                      <li><img src="../assets/imgs/fjrc.png" alt=""></li>
+                  </ul>
+              </div>
+            </div>
+            <div class="index_fblean">
+                <Swiper>
+                    <Slide><img  class="index_fblean_li" src="../assets/imgs/Fblean1.png" alt=""></Slide>
+                    <Slide><img   class="index_fblean_li" src="../assets/imgs/Fblean2.png" alt=""></Slide>
+                    <Slide><img  class="index_fblean_li" src="../assets/imgs/Fblean3.png" alt=""></Slide>
+                    <Slide><img  class="index_fblean_li" src="../assets/imgs/Fblean4.png" alt=""></Slide>
+                </Swiper>
+            </div>
+            <div class="index_last">
+                <div class="index_last_head">
+                    <ul>
+                        <li class="index_last_head_active">猜你喜欢</li>
+                        <li>品牌设计</li>
+                        <li>营销直播</li>
+                        <li>文案策划</li>
+                        <li>网站建设</li>
+                        <li>电商设计</li>
+                    </ul>
+                </div>
+                <div class="index_last_list">
+                    <ul>
+                      <li v-for="(li,i) in xzfwlist" :key="i">
+                          <div>
+                              <div class="index_last_headimg">
+                                  <img  src="../assets/imgs/last_head1.jpg" alt="">
+                                  <span>琳琅品牌设计</span>
+                                  <span>南昌</span>
+                              </div>
+                              <div class="index_last_title">
+                                雇主回头率>24% 同行|收入95.91万|诚信分95
+                              </div>
+                          </div>
+                          <div>
+                             <div class="index_last_spimg"><img src="../assets/imgs/last_list1.png" alt=""></div>
+                             <div class="index_last_spxx">
+                                <div>【元旦巨惠】企业公司品牌产品平面标志图标商标品牌log设计</div>
+                                <div>成交量 2087 | 评分4.97</div>
+                                <div>￥1314/套</div>
+                             </div>
+                          </div>
+                      </li>
+                     
+                    </ul>
+                </div>
+            </div>
         </div>
     <my-foot></my-foot>
   </div>
@@ -177,7 +282,16 @@ export default {
         {img:'',name:'影视动漫'},{img:'',name:'电商服务'},
         {img:'',name:'装修服务'},{img:'',name:'全部分类'},
       ],
-      items:["  恭喜xxxxxxx签订外包场地的订单，获得xxxxx积分"," 恭喜xxxxxxx签订外包场地的订单，获得xxxxx积分2"," 恭喜xxxxxxx签订外包场地的订单，获得xxxxx积分3"]
+       list4:[
+        {img:require('../assets/imgs/mfhm.png'),name:'免费核名'},{img:require('../assets/imgs/sbcgl.png'),name:'商标成功率'},
+        {img:require('../assets/imgs/zlcx.png'),name:'专利查询'},{img:require('../assets/imgs/xmpg.png'),name:'项目评估'},
+        {img:require('../assets/imgs/mfzb.png'),name:'免费招标'},{img:require('../assets/imgs/fwgj.png'),name:'服务估价'},
+        {img:require('../assets/imgs/mflht.png'),name:'免费领合同'},{img:require('../assets/imgs/jsjsq.png'),name:'节税计算器'},
+        {img:require('../assets/imgs/gqpc.png'),name:'高企评测'},{img:require('../assets/imgs/ksjk.png'),name:'快速借款'},
+      ],
+      items:["  恭喜xxxxxxx签订外包场地的订单，获得xxxxx积分"," 恭喜xxxxxxx签订外包场地的订单，获得xxxxx积分2"," 恭喜xxxxxxx签订外包场地的订单，获得xxxxx积分3"],
+      xzfwlist:['1','2','3']
+
     }
   },
   created(){
