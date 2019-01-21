@@ -682,3 +682,154 @@ overflow: hidden;
     font-weight: 550;
     margin-top: 0.1rem;
 }
+.leimu_body{
+    border: 1px solid red;
+    margin-top: 0.65rem;
+    margin-bottom: 0.5rem
+}
+.leimu_head{
+    width: 100%;
+    padding:0.1rem 0.2rem;
+    height: 0.8rem;
+    border-bottom: 1px solid #ddd;
+}
+.leimu_head>i{
+    font-size: 0.5rem;
+    color: #8c8c8c;
+    
+    vertical-align: top;
+    line-height: 0.6rem;
+    clear: both;
+    float:right;
+}
+.leimu_head_search{
+    background: rgb(244, 244, 244);
+    width: 88%;
+    display: inline-block;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    border-radius: 0.1rem;
+    padding: 0.1rem 0.2rem;
+}
+img{
+    vertical-align: middle;
+}
+.leimu_head_search>input{
+    height: 0.4rem;
+    line-height: 0.4rem;
+    float: left;
+    border: none;
+    outline-style: none;
+    background: rgb(244, 244, 244);
+    width: 90%;
+   
+}
+.leimu_head_search>img{
+    width: 0.4rem;
+    float: left;
+}
+.leimu_nav{
+    font-size: 0.25rem;
+    color: #8c8c8c;
+    border-right:1px solid #ddd;
+    width: 23%;
+    position: absolute;
+    left: 0;
+    top: 1.45rem;
+    height: 79%;
+    overflow: auto;
+}
+.leimu_nav>ul{
+    width: 100%;
+    height: max-content;
+}
+.leimu_nav>ul>li{
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0.1rem 0.2rem;
+}
+.leimu_list{
+    position: absolute;
+    right: 0;
+    width: 77%;
+    height: 78.5%;
+    overflow: auto;
+    padding: 0.2rem;
+}
+.leimu_list_firimg{
+    width: 100%;
+}
+.list_head{
+    font-size: 0.3rem;
+    font-weight: bold;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    border-left: 3px solid #ed672c;
+    padding-left: 0.2rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+.leimu_first_list{
+    width: 100%;
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    box-sizing: border-box;
+    height: 3.28rem;
+}
+.leimu_first_list>li{
+    float: left;
+    width: 33.33%;
+    font-size: 0.25rem;
+    text-align: center;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.leimu_first_list>li>img{
+    width: 50%;
+    padding: 0.1rem;
+    
+}
+.leimu_ather_list{
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    height: 1.5rem;
+}   
+.leimu_ather_list>li{
+    float: left;
+    width: 33.33333333%;
+    padding: 0.1rem 0.2rem;
+    font-size: 0.2rem;
+    text-align: center;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    margin-left: -1px;
+}
+.leimu_last_list>li{
+    margin: 0.4rem 0.1rem;
+    box-sizing: border-box;
+}
+.leimu_last_list>li>img{
+    width: 1rem;
+    border-radius: 0.1rem;
+    vertical-align: top;
+}
+.leimu_last_list>li>div{
+    display: inline-block;
+    width: 73%;
+    font-size: 0.23rem;
+}
+.leimu_last_title{
+    color: #8c8c8c;
+}
+.leimu_last_sj{
+    margin-top: 0.1rem;
+}
+.leimu_last_sj>span:first-child{
+    color: #ed672c;
+}
+.leimu_last_sj>span:last-child{
+    color: #999;
+    float: right;
+}
