@@ -837,3 +837,52 @@ img{
     color: #999;
     float: right;
 }
+.dongtai_body{
+    margin-top: 0.65rem;
+    margin-bottom: 1rem
+}
+.dongtai_head{
+    width: 100%;
+    margin: auto;
+    border-bottom: 1px solid #ddd;
+    height: 0.8rem;
+}
+.dongtai_head>ul{
+    width: 95%;
+    margin: auto;
+}
+.dongtai_head>ul>li{
+    display: inline-block;
+    float: left;
+    width: 25%;
+    line-height: 0.8rem;
+    text-align: center;
+    font-size: 0.3rem
+}
+.dt_blean_img{
+    width: 100%;
+    height: 1.7rem;
+    border-radius: 0.1rem;
+}
+.dongtai_blean{
+    width: 95%;
+    margin: auto;
+    margin-top: 0.2rem;
+}
+.dongtai_list1{
+    width: 95%;
+    margin: auto;
+    overflow: auto;
+}
+.dongtai_list1>ul{
+    height: 100%;
+    width: max-content;
+}
+.dongtai_list1>ul>li{
+    float: left;
+    width: 8%;
+    margin-right: 0.25rem
+}
+.dongtai_list1>ul>li>img{
+    width: 100%;
+}
