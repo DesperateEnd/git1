@@ -360,7 +360,7 @@ to {height:1.2rem;}
     width: 120%;
     margin-left: -0.15rem;
 }
-.index_qtfw{
+.index_qtfw2{
     width: 120%;
     margin-left: -0.15rem;
 }
@@ -683,7 +683,7 @@ overflow: hidden;
     margin-top: 0.1rem;
 }
 .leimu_body{
-    border: 1px solid red;
+   
     margin-top: 0.65rem;
     margin-bottom: 0.5rem
 }
@@ -747,7 +747,7 @@ img{
     width: 100%;
     box-sizing: border-box;
     text-align: center;
-    padding: 0.1rem 0.2rem;
+    padding: 0.2rem 0.2rem;
 }
 .leimu_list{
     position: absolute;
@@ -769,13 +769,14 @@ img{
     padding-left: 0.2rem;
     margin-top: 0.2rem;
     margin-bottom: 0.2rem;
+    clear: both;
 }
 .leimu_first_list{
     width: 100%;
     border-left: 1px solid #ddd;
     border-top: 1px solid #ddd;
     box-sizing: border-box;
-    height: 3.28rem;
+    clear: both;
 }
 .leimu_first_list>li{
     float: left;
@@ -784,6 +785,9 @@ img{
     text-align: center;
     border-right: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
+    padding: 0.1rem;
+    border-left: 1px solid  #ddd;
+    margin-left: -1px
 }
 .leimu_first_list>li>img{
     width: 50%;

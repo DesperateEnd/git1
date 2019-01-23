@@ -96,7 +96,7 @@
                       </li>
                       <li>
                           <div>
-                              <img class="index_qtfw" src="../assets/imgs/index_qtfw.png" alt="">
+                              <img class="index_qtfw2" src="../assets/imgs/index_qtfw.png" alt="">
                           </div>
                       </li>
                       
@@ -262,11 +262,11 @@ export default {
   data () {
     return {
       list1:[
-        {img:'',name:'品牌设计1'},{img:'',name:'营销推广'},
-        {img:'',name:'IT/软件'},{img:'',name:'知识产权'},
-        {img:'',name:'工商财税'},{img:'',name:'科技服务'},
-        {img:'',name:'影视动漫'},{img:'',name:'电商服务'},
-        {img:'',name:'装修服务'},{img:'',name:'全部分类'},
+        {img:'',name:'企业宣传片'},{img:'',name:'产品宣传片'},
+        {img:'',name:'广告片'},{img:'',name:'短视频'},
+        {img:'',name:'三维动画'},{img:'',name:'手绘动画'},
+        {img:'',name:'视频定制'},{img:'',name:'剪辑服务'},
+        {img:'',name:'配音'},{img:'',name:'摄像服务'},
       ],
        list2:[
         {img:'',name:'品牌设计2'},{img:'',name:'营销推广'},
