@@ -6,8 +6,12 @@
 img{
     vertical-align: middle;
 }
+body{
+    
+}
 #app{
     font-size: 0.5rem;
+    background: white;
 }
 .myhead{
     position: fixed;
@@ -873,6 +877,8 @@ img{
     width: 95%;
     margin: auto;
     overflow: auto;
+    margin-top: 0.2rem;
+    margin-right: 0
 }
 .dongtai_list1>ul{
     height: 100%;
@@ -885,4 +891,265 @@ img{
 }
 .dongtai_list1>ul>li>img{
     width: 100%;
+}
+.dongtai_cnxh_list{
+    width: 95%;
+    margin: auto;
+}
+.dongtai_cnxh_list>ul{
+    width: 49%;
+    overflow: hidden;
+    float: left;
+    box-sizing: border-box;
+}
+.dongtai_cnxh_list>ul>li{
+    /* float: left; */
+    display: inline-block;
+    width: 95%;
+    vertical-align: top;
+    margin: 0.1rem;
+    font-size: 0.25rem;
+    border-radius: 0.1rem;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 1px 2px 5px 1px rgba(10,10,10,0.3)
+}
+.dongtai_cnxh_list>ul>li>img{
+    width: 100%
+}
+.dongtai_cnxh_city{
+    position: absolute;
+    top: 1.3rem;
+    right: 0.1rem;
+    display: block;
+    background: rgba(10,10,10,0.3);
+    padding: 0rem 0.2rem;
+    border-radius: 1rem;
+    color: white;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    font-size: 0.2rem;
+}
+.dongtai_cnxh_tit{
+    font-size: 0.25rem;
+    font-weight: bold;
+    width: 95%;
+    margin: auto;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+}
+.dongtai_cnxh_name{
+    margin: auto;
+    font-size: 0.2rem;
+    color: #8c8c8c;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+    width: 95%;
+   
+}
+.dongtai_cnxh_head{
+    width: 95%;
+    margin: auto;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+.dongtai_cnxh_head>span{
+    font-size: 0.4rem;
+    font-weight: bold;
+}
+.dongtai_cnxh_head>select{
+    float: right;
+    margin-top: 0.25rem;
+    border: none;
+    color: #8c8c8c;
+    outline-style: none;
+}
+.home{
+    margin-top: 0.65rem;
+    margin-bottom: 1rem;
+    background: #f0eff5
+}
+.home_user{
+    
+    height: 2rem;
+    background: -webkit-gradient(linear,0 0,0 bottom,from(#ff9b44),to(#ff750e));
+    color: white;
+    font-size: 0.3rem;
+    line-height: 2rem;
+    
+}
+.homg_userimg{
+    width: 1rem;
+    margin-left: 0.3rem;
+}
+.home_user_list1{
+    width: 100%;
+    clear: both;
+    height: 1.5rem;
+}
+.home_user_list1>ul{
+    width: 100%;
+}
+.home_user_list1>ul>li{
+    float: left;
+    width: 25%;
+    font-size: 0.25rem;
+    text-align: center;
+    padding-top: 0.3rem;
+    padding-bottom: 0.1rem;
+    background: white;
+}
+.home_user_list1>ul>li>img{
+    width: 30%;
+    margin-bottom: 0.2rem;
+}
+.home_list{
+    font-size: 0.25rem;
+    clear: both;
+    margin-top: 0.2rem;
+}
+.home_list>ul{
+    width: 100%;
+    margin: auto;
+  
+}
+.home_list>ul>li{
+    width: 100%;
+    background: white;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    border-bottom: 1px solid #ddd;
+}
+.home_list>ul>li:nth-child(even){
+   box-shadow: 1px 0 1px 1px rgba(10,10,10,0.1);
+   margin-bottom: 0.2rem;
+   border: none;
+}
+.home_list>ul>li>img{
+    width: 0.3rem;
+    margin-right: 0.2rem;
+}
+/******************************************************/
+/*第二级页面样式*/
+.dingwei{
+    top: 0;
+    left: 0;
+    z-index: 110;
+    overflow: auto;
+    width: 100%;
+    background: white;
+   
+}
+.dingwei_head{
+    background: #efeff4;
+    width: 100%;
+    height: 0.7rem;
+    padding-top: 0.1rem;
+    box-shadow: 1px 0 1px 1px rgba(10,10,10,0.1)
+}
+.dingwei_search{
+    width: 95%;
+    margin: auto;
+    background: white;
+    height: 0.5rem;
+    line-height: 0.5rem;
+}
+.dingwei_search>img{
+    width: 0.35rem;
+    margin-bottom: 0.1rem;
+    margin-left: 0.2rem;
+}
+.dingwei_search>input{
+    outline-style: none;
+    height: 0.45rem;
+   position: absolute;
+    border: none;
+    margin-left: 0.2rem;
+}
+.dingwei_dqdw{
+margin-bottom: 0.2rem;
+}
+.dingwei_dqdw>p:first-child{
+    color: #999;
+    font-size: 0.25rem;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    width: 95%;
+    margin: auto;
+}
+.dingwei_dqdw>p:last-child{
+    display: block;
+    width:fit-content;
+    margin-left: 2.5%;
+    border: 1px solid #ddd;
+    padding: 0.1rem 0rem;
+    font-size: 0.3rem;
+    border-radius: 0.1rem;
+}
+.dingwei_dqcs{
+    margin-bottom: 0.2rem;
+
+}
+.dingwei_dqcs>p:first-child,.dingwei_hotcity>p:first-child{
+    color: #999;
+    font-size: 0.25rem;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    width: 95%;
+    margin: auto;
+}
+.dingwei_dqcs>p:last-child{
+    border: 1px solid #ddd;
+    padding: 0.1rem 0.2rem;
+    width: fit-content;
+    border-radius: 0.1rem;
+    font-size: 0.3rem;
+    margin-left: 2.5%;
+}
+.dingwei_hotcity{
+    margin-bottom: 0.2rem;
+}
+.dingwei_hotcity_list{
+    width: 95%;
+    margin: auto;
+}
+.dingwei_hotcity_list>ul{
+    width: 100%;
+}
+.dingwei_hotcity_list>ul>li{
+    float: left;
+    padding: 0.1rem 0.2rem;
+    font-size: 0.3rem;
+    width: 30%;
+    margin: 0.1rem;
+    border: 1px solid #ddd;
+    text-align: center;
+    border-radius: 0.1rem;
+}
+.dingwei_allcity{
+    clear: both;
+    width: 100%;
+    margin: auto;
+}
+.dingwei_sheng{
+    width: 100%;
+    background: rgb(240, 239, 245);
+    color:#999;
+    font-size: 0.3rem;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    padding-left: 2.5%;
+}
+.dingwei_citylist{
+    width: 95%;
+    margin: auto;
+    font-size: 0.3rem;
+    color: #666;
+}
+.dingwei_citylist>li{
+    height: 0.6rem;
+    line-height: 0.6rem;
+    border-bottom: 1px solid rgb(246,242,242);
 }

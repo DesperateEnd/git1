@@ -1,7 +1,72 @@
 <template>
     <div>
         <my-head></my-head>
-        用户中心
+          <div class="home">
+              <div class="home_user">
+                <div>
+                    <img src="../assets/imgs/user.png" alt="" class="homg_userimg">
+                    <span>登录/注册账号</span>
+                    <i>i</i>
+                </div>
+              </div>
+              <div class="home_user_list1">
+                 <ul>
+                   <li>
+                     <img src="../assets/imgs/home1.png" alt="">
+                      <p>我的订单</p>  
+                   </li>
+                   <li>
+                     <img src="../assets/imgs/home2.png" alt="">
+                    <p>服务收藏</p>
+                   </li>
+                   <li>
+                     <img src="../assets/imgs/home3.png" alt="">
+                      <p>店铺关注</p>
+                   </li>
+                   <li>
+                     <img src="../assets/imgs/home4.png" alt="">
+                      <p>我的足迹</p>
+                   </li>
+                 </ul>
+              </div>
+              <div class="home_list">
+                  <ul>
+                    <li>
+                      <img src="../assets/imgs/home5.png" alt="">
+                      <span>领大圣管家</span>
+                      <i>i</i>
+                    </li>
+                    <li>
+                      <img src="../assets/imgs/home6.png" alt="">
+                      <span>领大圣管家</span>
+                      <span>余额、优惠卷</span>
+                      <i>i</i>
+                    </li>
+                    <li>
+                      <img src="../assets/imgs/home7.png" alt="">
+                      <span>领大圣管家</span>
+                      <i>i</i>
+                    </li>
+                    <li>
+                      <img src="../assets/imgs/home8.png" alt="">
+                      <span>领大圣管家</span>
+                      <span>余额、优惠卷</span>
+                      <i>i</i>
+                    </li>
+                    <li>
+                      <img src="../assets/imgs/home9.png" alt="">
+                      <span>领大圣管家</span>
+                      <i>i</i>
+                    </li>
+                    <li>
+                      <img src="../assets/imgs/home10.png" alt="">
+                      <span>领大圣管家</span>
+                      <span>余额、优惠卷</span>
+                      <i>i</i>
+                    </li>
+                  </ul>
+              </div>
+          </div>
         <my-foot></my-foot>
     </div>
 </template>

@@ -54,6 +54,70 @@
                  </li>
                </ul>
             </div>
+            <div>
+               <div class="dongtai_cnxh_head">
+                 <span>猜你喜欢</span>
+                 <select name="" id="">
+                   <option value="">本地优先</option>
+                 </select>
+               </div>
+               <div class="dongtai_cnxh_list">
+                  <ul>
+                    <li>
+                      <img src="../assets/imgs/dt_list1.png" alt="">
+                      <span class="dongtai_cnxh_city">重庆</span>
+                      <div class="dongtai_cnxh_tit">麦小弟连锁餐饮打造麦小弟连锁餐饮打造</div>
+                      <div class="dongtai_cnxh_name">干树品牌设计公司</div>
+                    </li>
+                    <li>
+                      <img src="../assets/imgs/dt_list2.png" alt="">
+                      <span class="dongtai_cnxh_city">重庆</span>
+                      <div class="dongtai_cnxh_tit">【教育画册设计】马赫兰奇公立学校</div>
+                      <div class="dongtai_cnxh_name">匠意品牌设计</div>
+                    </li>
+                    <li>
+                      <img src="../assets/imgs/dt_list3.png" alt="">
+                      <span class="dongtai_cnxh_city">重庆</span>
+                      <div class="dongtai_cnxh_tit">尚德机构-教育培训-logo设计</div>
+                      <div class="dongtai_cnxh_name">智牌品牌企业</div>
+                    </li>
+                    <li>
+                      <img src="../assets/imgs/dt_list4.png" alt="">
+                      <span class="dongtai_cnxh_city">重庆</span>
+                      <div class="dongtai_cnxh_tit">麦小弟连锁餐饮打造</div>
+                      <div class="dongtai_cnxh_name">干树品牌设计公司</div>
+                    </li>
+            
+                  </ul>
+                  <ul>
+                    <li>
+                      <img src="../assets/imgs/dt_list1.png" alt="">
+                      <span class="dongtai_cnxh_city">重庆</span>
+                      <div class="dongtai_cnxh_tit">麦小弟连锁餐饮打造</div>
+                      <div class="dongtai_cnxh_name">干树品牌设计公司</div>
+                    </li>
+                    <li>
+                      <img src="../assets/imgs/dt_list2.png" alt="">
+                      <span class="dongtai_cnxh_city">重庆</span>
+                      <div class="dongtai_cnxh_tit">麦小弟连锁餐饮打造</div>
+                      <div class="dongtai_cnxh_name">干树品牌设计公司</div>
+                    </li>
+                    <li>
+                      <img src="../assets/imgs/dt_list3.png" alt="">
+                      <span class="dongtai_cnxh_city">重庆</span>
+                      <div class="dongtai_cnxh_tit">麦小弟连锁餐饮打造</div>
+                      <div class="dongtai_cnxh_name">干树品牌设计公司</div>
+                    </li>
+                    <li>
+                      <img src="../assets/imgs/dt_list4.png" alt="">
+                      <span class="dongtai_cnxh_city">重庆</span>
+                      <div class="dongtai_cnxh_tit">麦小弟连锁餐饮打造</div>
+                      <div class="dongtai_cnxh_name">干树品牌设计公司</div>
+                    </li>
+            
+                  </ul>
+               </div>
+            </div>
         </div>
         <my-foot></my-foot>
     </div>
