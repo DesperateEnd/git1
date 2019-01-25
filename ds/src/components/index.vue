@@ -8,9 +8,9 @@
               <div>短视频</div>
               <div>3D</div>
               <div>品牌设计</div> -->
-              <div><i class="iconfont icon-roundaddfill index_headfb"></i>发布需求</div>
+              <div @click="fabuxuqiu()"><i class="iconfont icon-roundaddfill index_headfb"></i>发布需求</div>
             </div>
-            <div class="index_search"><i class="iconfont icon-search index_search"></i> <input type="text" name="" id="" placeholder="搜索专业人才为你服务" class="index_search_input"> <i>i</i> </div>
+            <div class="index_search" @click="search()"><i class="iconfont icon-search index_search"></i> <input type="text" name="" id="" placeholder="搜索专业人才为你服务" class="index_search_input"></div>
              <Swiper class="index_list_blean" autoPlay="false" interval="5000">
                 <Slide>
                        <ul class="index_list_fl">
@@ -310,7 +310,15 @@ methods:{
     //定位跳转
         dingwei(){
             this.$router.push('/dingwei')
-        }
+        },
+    //发布需求跳转
+    fabuxuqiu(){
+        this.$router.push('/fabuxuqiu')
+    },
+    //搜索
+    search(){
+        this.$router.push('/search')
+    },
 },
 
 }

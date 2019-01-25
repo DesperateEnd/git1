@@ -1,5 +1,5 @@
 <template>
-    <div class="dingwei">
+    <div class="dingwei" @click="out()">
         <!-- <my-head></my-head> -->
           <div class="dingwei_head">
               <div class="dingwei_search">
@@ -869,6 +869,11 @@ export default {
                     }]
                 }]    
     }
+  },
+  methods:{
+      out(){
+          this.$router.go(-1);
+      }
   }
 }
 </script>
