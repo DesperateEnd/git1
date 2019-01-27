@@ -14,7 +14,7 @@
              <Swiper class="index_list_blean" autoPlay="false" interval="5000">
                 <Slide>
                        <ul class="index_list_fl">
-                        <li v-for="(list1,i) in list1" :key="i">
+                        <li v-for="(list1,i) in list1" :key="i" @click="details()">
                             <div>
                                 <div> <i class="iconfont icon-roundaddfill index_list_icon"></i></div>
                                 <div>{{list1.name}}</div>
@@ -67,7 +67,7 @@
                   </Slide>
                 </Swiper>
             </div>
-            <div class="index_gonggao_kuang">
+            <div class="index_gonggao_kuang" @click="information()">
               <div class="index_gonggao_head">
                <img src="../assets/imgs/gonggao_head.png" alt="">
               </div>
@@ -114,7 +114,7 @@
               <button class="index_wyfxq">我要发需求</button>
               <p class="index_xzfw_foot">轻松发布需求&nbsp;急速匹配人才&nbsp;顾问免费跟进</p>
             </div>
-            <div class="index_jdal">
+            <div  class="index_jdal">
                 <div class="index_jdal_head">经典案例 <i class="icon iconfont icon-right"></i></div>
                 <div class="index_jdal_list">
                   <ul>
@@ -145,18 +145,18 @@
                   <div class="index_fwxz_li" v-for="(li,i) in xzfwlist" :key="i">
                       <div class="index_fwxz_li_head">设计服务   <span class="index_fwxz_li_more">更多 <i class="icon iconfont icon-right"></i><i class="icon iconfont icon-right"></i></span></div>
                       <ul>
-                        <li>LOGO</li>
-                        <li>包装设计</li>
-                        <li>宣传手册</li>
-                        <li>VI设计</li>
-                        <li>海报设计</li>
-                        <li>PPT设计</li>
-                        <li>名片设计</li>
-                        <li>电商设计</li>
-                        <li>卡通形象</li>
-                        <li>餐饮空间</li>
-                        <li>购物空间</li>
-                        <li>家装设计</li>
+                        <li @click="dianpulist()">LOGO</li>
+                        <li @click="dianpulist()">包装设计</li>
+                        <li @click="dianpulist()">宣传手册</li>
+                        <li @click="dianpulist()">VI设计</li>
+                        <li@click="dianpulist()">海报设计</li>
+                        <li @click="dianpulist()">PPT设计</li>
+                        <li @click="dianpulist()">名片设计</li>
+                        <li @click="dianpulist()">电商设计</li>
+                        <li @click="dianpulist()">卡通形象</li>
+                        <li @click="dianpulist()">餐饮空间</li>
+                        <li @click="dianpulist()">购物空间</li>
+                        <li @click="dianpulist()">家装设计</li>
                       </ul>
                   </div>
                    
@@ -319,6 +319,18 @@ methods:{
     search(){
         this.$router.push('/search')
     },
+    //详情页
+    details(){
+        this.$router.push('/details')
+    },
+    //交易信息
+    information(){
+        this.$router.push('/information')
+    },
+    //店铺列表
+    dianpulist(){
+        this.$router.push('/dianpulist')
+    }
 },
 
 }

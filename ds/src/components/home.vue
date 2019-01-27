@@ -6,7 +6,7 @@
                 <div>
                     <img src="../assets/imgs/user.png" alt="" class="homg_userimg">
                     <span>登录/注册账号</span>
-                    <i>i</i>
+                    <i class="icon iconfont icon-right"></i>
                 </div>
               </div>
               <div class="home_user_list1">
@@ -34,35 +34,35 @@
                     <li>
                       <img src="../assets/imgs/home5.png" alt="">
                       <span>领大圣管家</span>
-                      <i>i</i>
+                      <i class="icon iconfont icon-right"></i>
                     </li>
                     <li>
                       <img src="../assets/imgs/home6.png" alt="">
-                      <span>领大圣管家</span>
+                      <span>我的账户</span>
                       <span>余额、优惠卷</span>
-                      <i>i</i>
+                      <i class="icon iconfont icon-right"></i>
                     </li>
                     <li>
                       <img src="../assets/imgs/home7.png" alt="">
-                      <span>领大圣管家</span>
-                      <i>i</i>
+                      <span>我的优惠卷</span>
+                      <i class="icon iconfont icon-right"></i>
                     </li>
                     <li>
                       <img src="../assets/imgs/home8.png" alt="">
-                      <span>领大圣管家</span>
-                      <span>余额、优惠卷</span>
-                      <i>i</i>
+                      <span>雇主俱乐部</span>
+                      <span>签到、积分抽奖</span>
+                      <i class="icon iconfont icon-right"></i>
                     </li>
                     <li>
                       <img src="../assets/imgs/home9.png" alt="">
-                      <span>领大圣管家</span>
-                      <i>i</i>
+                      <span>帮助</span>
+                      <i class="icon iconfont icon-right"></i>
                     </li>
                     <li>
                       <img src="../assets/imgs/home10.png" alt="">
-                      <span>领大圣管家</span>
-                      <span>余额、优惠卷</span>
-                      <i>i</i>
+                      <span>设置</span>
+                      
+                      <i class="icon iconfont icon-right"></i>
                     </li>
                   </ul>
               </div>
