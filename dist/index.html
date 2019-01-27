@@ -1,0 +1,17 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>大圣</title><link href=./static/css/app.e1ee2b0734291ba550a5061de755216a.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=./static/js/manifest.c671b31a6294c60d458b.js></script><script type=text/javascript src=./static/js/app.900da6c0c7627d188e1a.js></script></body><script>(function (doc, win) {
+        var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                if(clientWidth>=640){
+                    docEl.style.fontSize = '100px';
+                }else{
+                    docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+                }
+            };
+ 
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);</script></html>
